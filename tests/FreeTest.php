@@ -37,6 +37,6 @@ class FreeTest extends PHPUnit_Framework_TestCase
   }
 
   public function testValidResult(){
-    $this->assertEquals(1,$this->free->ata(33));
+    $this->assertEquals(2,$this->free->ata(33));
   }
 }
