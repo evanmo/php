@@ -33,7 +33,7 @@ class FreeTest extends PHPUnit_Framework_TestCase
    */
 
   public function testInvalidArgumentIsProperlyThrown(){
-    $this->fess->ata('A');
+    $this->free->ata('A');
   }
 
   public function testValidResult(){
